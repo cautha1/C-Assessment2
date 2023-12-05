@@ -37,7 +37,7 @@ namespace Assessment2
             List<int> intList = new List<int> { 5, 2, 8, 1, 3 };
             GenericSortUtility<int>.AscendingSort(intList);
 
-            Console.WriteLine("Ascending Sorted Integers:");
+            Console.WriteLine("\nAscending Sorted  of Integers:");
             foreach (var num in intList)
             {
                 Console.Write(num + " ");
@@ -49,7 +49,7 @@ namespace Assessment2
             List<string> stringList = new List<string> { "banana", "apple", "orange", "grape", "mango" };
             GenericSortUtility<string>.DescendingSort(stringList);
 
-            Console.WriteLine("Descending Sorted Strings:");
+            Console.WriteLine("\nDescending Sorted of Strings:");
             foreach (var str in stringList)
             {
                 Console.Write(str + " ");
@@ -85,7 +85,7 @@ namespace Assessment2
             binaryTree.Add("G");
 
             // InOrder Traversal
-            Console.WriteLine("InOrder Traversal:");
+            Console.WriteLine("\nInOrder Traversal:");
             binaryTree.InOrderTraversal();
 
 
